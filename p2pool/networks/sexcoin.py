@@ -2,7 +2,7 @@ from p2pool.bitcoin import networks
 
 PARENT = networks.nets['sexcoin']
 SHARE_PERIOD = 15 # seconds
-CHAIN_LENGTH = 24*60*60//30, # shares
+CHAIN_LENGTH = 24*60*60//30 # shares
 REAL_CHAIN_LENGTH = 24*60*60//30 # shares
 TARGET_LOOKBEHIND = 200 # shares
 SPREAD = 10 # blocks
